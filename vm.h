@@ -50,6 +50,8 @@ enum {
 class VM {
 public:
     uint16_t register_table[PROG_CNT];
+    void fetch();
+    void ADD_INSTRUCTION(uint16_t instruction);
 };
 
 
